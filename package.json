@@ -1,5 +1,5 @@
 {
-  "name": "react-app",
+  "name": "notetaker",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -9,14 +9,15 @@
   "author": "Justin Hugg",
   "license": "ISC",
   "dependencies": {
-    "react": "^15.4.2",
-    "react-dom": "^15.4.2",
-    "webpack": "^2.2.1"
+    "history": "^1.13.1",
+    "react": "^0.14.3",
+    "react-dom": "^0.14.3",
+    "react-router": "^1.0.1"
   },
   "devDependencies": {
-    "babel-core": "^6.22.1",
-    "babel-loader": "^6.2.10",
-    "babel-preset-es2016": "^6.22.0",
-    "babel-preset-react": "^6.22.0"
+    "babel-core": "^6.3.13",
+    "babel-loader": "^6.2.0",
+    "babel-preset-es2015": "^6.3.13",
+    "babel-preset-react": "^6.3.13"
   }
 }
