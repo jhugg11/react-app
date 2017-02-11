@@ -15,7 +15,8 @@
     "react-dom": "^0.14.3",
     "react-localstorage": "^0.3.0",
     "react-router": "^1.0.1",
-    "reactfire": "^0.5.1"
+    "reactfire": "^0.5.1",
+    "webpack": "^2.2.1"
   },
   "devDependencies": {
     "babel-core": "^6.3.13",
