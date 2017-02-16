@@ -1,19 +1,18 @@
-var React = require('react');
+import React from 'react'
 
-var Repos = React.createClass({
-  propTypes: {
-    username: React.PropTypes.string.isRequired,
-    repos: React.PropTypes.array.isRequired
-  },
-  render: function() {
-    console.log(this.props.repos);
-    return (
-      <div> REPOS
-      </div>
+const NotesList = ({notes}) => {
+  return (
+    <ul className="list-group">
+      {notes.map((note, index) => (
+        <li className="list-group-item" key={index}>{note}</li>
+      ))}
+    </ul>
+  )
+}
 
-    )
-  }
-});
+NotesList.propTypes = {
+  notes: React.PropTypes.array.isRequired
+}
 
-module.exports = Repos;
+export default NotesList
 
